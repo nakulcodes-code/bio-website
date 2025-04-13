@@ -1,11 +1,36 @@
 body{
     background-color: aquamarine;
-    font-family: 'segoe UI',Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: black;
+    padding: 0;
+}
+
+header{
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 h1{
     text-align: center;
-    color: #2c3e50;
 }
 
 p{
@@ -15,4 +40,43 @@ p{
     margin: 20px;
     padding: 10px;
     border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightyellow;
+    transition: background-color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+}
+
+/*flexbox layout for skills*/
+#skills ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+#skills li{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1 1 calc(33% - 20px); /* Adjusts the width of each skill item */
+    text-align: center;
+    margin: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+footer{
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
