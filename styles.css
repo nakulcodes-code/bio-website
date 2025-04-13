@@ -47,7 +47,7 @@ p{
 }
 
 /*flexbox layout for skills*/
-#skills ul{
+#Skills ul{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -58,7 +58,7 @@ p{
     font-family: 'Arial', sans-serif;
 }
 
-#skills li{
+#Skills li{
     background-color: lightgray;
     padding: 10px;
     border-radius: 5px;
@@ -79,4 +79,47 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p,li{
+    font-size: 18px;
+    color: black;
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+#Skills li:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+header h1{
+    font-size: 36px;
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Arial', sans-serif;
+    margin: 0 10px;
+}
+a:hover{
+    text-decoration: underline;
+    color: darkblue;
+    transition: color 0.3s ease;
 }
