@@ -112,6 +112,15 @@ header h1{
     margin-bottom: 5px;
 }
 
+profile-pic{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+}
+
 a{
     text-decoration: none;
     color: blue;
@@ -121,5 +130,62 @@ a{
 a:hover{
     text-decoration: underline;
     color: darkblue;
+    transition: color 0.3s ease;
+}
+
+.btn{
+    background-color: lightblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: darkblue;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#Contact a{
+    margin: 5px 0;
+    font-size: 18px;
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+#Contact a:hover{
+    color: darkblue;
+    text-decoration: underline;
     transition: color 0.3s ease;
 }
